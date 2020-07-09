@@ -1,0 +1,46 @@
+.div1{
+    width: 350px;
+    height: 350px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px;
+    
+}
+
+.divmain{
+    /* margin: ; */
+}
+
+.para{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    /* float: left; */
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+
+i{
+    font-size: 4em !important;
+    color: skyblue;
+}
+
+
+ul{
+    padding: 5px;
+}
+li{
+    display: inline-block !important;
+    padding: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0 auto;
+}
+
+.paraicon{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
+
 <body>
-    <script src="app.js"></script>
+    <div class="divmain">
+        <!-- <p>hello</p> -->
+        <div class="div1 bg-dark rounded-circle border border-primary">
+            <p class="para" id="min">0</p>
+            <p class="para">:</p>
+            <p class="para" id="sec">0</p>
+            <p class="para">:</p>
+            <p class="para" id="msec">0</p>
+            
+        </div>
+    </div>
+    <div class="text-center">
+        <ul>
+            <li><i class="fa fa-play-circle" aria-hidden="true" onclick="start()"><p class="paraicon">Start</p></i></li>
+            <li><i class="fa fa-pause-circle" aria-hidden="true" onclick="pause()"><p class="paraicon">Pause</p></i></li>
+            <li><i class="fa fa-minus-circle" aria-hidden="true" onclick="clear1()"><p class="paraicon">Clear</p></i></li>
+            <li><i class="fa fa-clock-o" aria-hidden="true" onclick="lap()"><p class="paraicon">Lap</p></i></li>
+            <!-- <i class="fa fa-clock-o" aria-hidden="true"></i> -->
+        </ul>
     
+
+</div>
+    <script src="app.js"></script>
+
 </body>
+
 </html>
